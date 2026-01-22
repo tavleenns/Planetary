@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planetary | Environmental Research, Explained</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top, #020617, #000000);
+      color: #e5e7eb;
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      background:
+        linear-gradient(to bottom, rgba(2,6,23,0.4), rgba(0,0,0,0.95)),
+        url('https://images.unsplash.com/photo-1451187580459-43490279c0fa');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 4.5rem;
+      font-weight: 800;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .hero p {
+      margin-top: 1.2rem;
+      font-size: 1.35rem;
+      max-width: 800px;
+      opacity: 0.9;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+      background: rgba(2,6,23,0.75);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      z-index: 100;
+      border-bottom: 1px solid rgba(56,189,248,0.15);
+    }
+
+    nav a {
+      color: #cbd5f5;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+      text-shadow: 0 0 12px rgba(56,189,248,0.6);
+    }
+
+    /* MAIN */
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 6rem 2rem;
+    }
+
+    section { margin-bottom: 7rem; }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.2rem;
+      color: #7dd3fc;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 1.08rem;
+      max-width: 900px;
+      color: #e5e7eb;
+    }
+
+    /* GLASS CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2.5rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(15,23,42,0.8), rgba(2,6,23,0.9));
+      border: 1px solid rgba(56,189,248,0.15);
+      padding: 2.5rem;
+      border-radius: 22px;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.55);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover { transform: translateY(-8px); }
+
+    .card h3 {
+      margin-bottom: 0.7rem;
+      color: #38bdf8;
+      font-size: 1.3rem;
+    }
+
+    /* DIVIDER */
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #38bdf8, transparent);
+      margin: 4rem 0;
+    }
+
+    /* TIMELINE */
+    .timeline {
+      border-left: 3px solid #38bdf8;
+      padding-left: 2.5rem;
+      margin-top: 3rem;
+    }
+
+    .timeline-item {
+      margin-bottom: 2.5rem;
+    }
+
+    .timeline-item h4 {
+      color: #7dd3fc;
+      margin-bottom: 0.3rem;
+      font-size: 1.2rem;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #000000;
+      border-top: 1px solid rgba(56,189,248,0.2);
+      text-align: center;
+      padding: 4rem 2rem;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1>Planetary</h1>
+      <p>Environmental Research, Explained — translating peer-reviewed science into clear, accessible knowledge for global understanding.</p>
+    </div>
+  </section>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#mission">Mission</a>
+    <a href="#focus">Focus</a>
+    <a href="#method">Methodology</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <main>
+
+    <section id="mission">
+      <h2>Mission</h2>
+      <p>
+        Planetary is a student-led, nonprofit educational initiative dedicated to strengthening scientific literacy by translating complex environmental research into accurate, accessible summaries. The project emphasizes evidence-based understanding without political framing or advocacy.
+      </p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="focus">
+      <h2>Research Focus Areas</h2>
+      <div class="grid">
+        <div class="card"><h3>Climate Systems</h3><p>Atmospheric circulation, climate modeling, satellite observations, and long-term temperature trends.</p></div>
+        <div class="card"><h3>Pollution & Health</h3><p>Air, water, and soil pollution research with environmental and human health implications.</p></div>
+        <div class="card"><h3>Biodiversity</h3><p>Ecosystem stability, species decline, conservation strategies, and resilience research.</p></div>
+        <div class="card"><h3>Energy & Sustainability</h3><p>Renewable energy systems, efficiency technologies, and emissions reduction pathways.</p></div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="method">
+      <h2>Methodology</h2>
+      <p>
+        Research featured on Planetary is sourced from peer-reviewed journals, international scientific bodies, and academic institutions. Each study is evaluated for credibility and relevance, then summarized to highlight the research question, methodology, findings, and broader scientific significance.
+      </p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="animations">
+      <h2>Animated Research</h2>
+      <p>
+        Planetary also presents selected research findings through short, educational animated videos. These animations are designed to visually explain complex environmental processes, data trends, and scientific mechanisms in an accessible and engaging format, while remaining strictly evidence-based.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Climate Change Visualized</h3>
+          <p>Animated explanations of temperature trends, feedback loops, and climate models based on peer-reviewed studies.</p>
+        </div>
+        <div class="card">
+          <h3>Air & Water Pollution</h3>
+          <p>Visual breakdowns of pollution sources, dispersion mechanisms, and health impacts supported by scientific data.</p>
+        </div>
+        <div class="card">
+          <h3>Ecosystems & Biodiversity</h3>
+          <p>Animations illustrating ecosystem interactions, species loss, and conservation research findings.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="roadmap">
+      <h2>Project Roadmap</h2>
+      <div class="timeline">
+        <div class="timeline-item"><h4>Phase I</h4><p>Launch platform and publish foundational research summaries across core environmental domains.</p></div>
+        <div class="timeline-item"><h4>Phase II</h4><p>Expand research coverage, integrate visual explanations, and refine academic clarity.</p></div>
+        <div class="timeline-item"><h4>Phase III</h4><p>Collaborate with students and educators to broaden reach and interdisciplinary scope.</p></div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="about">
+      <h2>About Planetary</h2>
+      <p>
+        Planetary is independently created and maintained by a student with an academic interest in environmental science and research communication. The platform is nonprofit, freely accessible, and intended exclusively for educational use.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Planetary · Student-Led Nonprofit Environmental Research Platform
+  </footer>
+
+</body>
+</html>
