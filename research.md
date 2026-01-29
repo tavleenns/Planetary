@@ -1,27 +1,25 @@
 ---
-title: "Research | Planetary"
-description: "Open research papers by Planetary on climate education and environmental resilience."
+title: Research Papers
 ---
 
-# 🌍 Planetary Research
+# 📚 Planetary Research Papers
 
-Planetary publishes open, accessible research focused on climate education,
-environmental resilience, and sustainability.
-
----
-
-## 📄 Published Papers
-
-### Empowering Tomorrow  
-*Climate Education as a Catalyst for Environmental Resilience*  
-*January 2026*
-
-📄 **[Read the paper](paper)**
-
+Planetary publishes simplified, open-access research focused on climate education, environmental resilience, and sustainability.
 
 ---
 
-## 🔬 Coming Soon
-- Climate Education and Heat Stress in Schools  
-- Youth Climate Literacy and Community Resilience  
-- Simplifying Climate Science for Public Learning
+## 🌍 Published Papers
+
+### **Empowering Tomorrow**
+**Climate Education as a Catalyst for Environmental Resilience**  
+*Planetary (Non-Profit for Environmental Research & Education), 2026*
+
+- Focus: Climate education, resilience, policy, green skills  
+- Regions: Global, Europe, India  
+- Methods: Policy analysis, case studies, global data synthesis  
+
+📄 **[Read the full paper](paper)**
+
+---
+
+More research papers will be added as Planetary grows.
