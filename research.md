@@ -12,12 +12,12 @@ environmental resilience, and sustainability.
 
 ## 📄 Published Papers
 
-### 1. Empowering Tomorrow  
-**Climate Education as a Catalyst for Environmental Resilience**  
+### Empowering Tomorrow  
+*Climate Education as a Catalyst for Environmental Resilience*  
 *January 2026*
 
-🔗 **Read the paper:**  
-[View full paper](./)
+📄 **[Read the paper](paper)**
+
 
 ---
 
