@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Empowering Tomorrow: Climate Education as a Catalyst for Environmental Resilience"
+message: "If you use this work, please cite it as below."
+type: report
+authors:
+  - name: Planetary
+    role: author
+date-released: 2026-01-24
+version: 1.0.0
+abstract: >
+  This open research paper examines climate education as a core strategy
+  for environmental resilience, synthesizing global data, policy trends,
+  and real-world education interventions.
+repository-code: https://github.com/tavleenns/Planetary
+license: CC-BY-4.0
+keywords:
+  - climate education
+  - environmental resilience
+  - sustainability
+  - education policy
