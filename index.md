@@ -3,6 +3,8 @@ title: "Climate Education and Environmental Resilience | Planetary"
 description: "Open research paper on climate education, climate resilience, and global education impacts."
 ---
 
+🔬 **[Research](research)**
+
 # Empowering Tomorrow: Climate Education as a Catalyst for Environmental Resilience
 
 **Author:** Planetary — Non-Profit for Environmental Research & Education  
